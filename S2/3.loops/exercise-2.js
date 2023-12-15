@@ -5,6 +5,6 @@ const alien = {
     weight: '259kg'
 }
 
-for(const alienigena in alien) {
-    console.log(alien);
+for(const alienigena in alien){
+    console.log(alien[alienigena]);
 }
